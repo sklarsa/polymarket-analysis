@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "polymarket-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Steven Sklar <sklarsa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+py-clob-client = "^0.20.0"
+ipython = "^8.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
